@@ -19,11 +19,11 @@ func CalculateCost(carsCount int) uint {
 	CostOfGroupOfTenCars := 95000
 	CostOfIndividualCar := 10000
 	remainder := carsCount % 10
-	
+
 	switch carsCount {
 	case 0:
-		return 0 
-	case 1,2,3,4,5,6,7,8,9:
+		return 0
+	case 1, 2, 3, 4, 5, 6, 7, 8, 9:
 		return uint(carsCount * 10000)
 	}
 
